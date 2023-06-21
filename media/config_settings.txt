@@ -1,0 +1,1 @@
+In this media folder, all requested PDF files will be stored temporarily.

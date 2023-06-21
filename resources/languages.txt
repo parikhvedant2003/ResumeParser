@@ -1,0 +1,21 @@
+Assamese
+Bengali
+Bodo
+Dogri
+Gujarati
+Hindi
+Kannada
+Kashmiri
+Konkani
+Maithili
+Malayalam
+Manipuri
+Marathi
+Nepali
+Odia (Oriya)
+Punjabi
+Sanskrit
+Santali
+Sindhi
+Tamil
+Telugu

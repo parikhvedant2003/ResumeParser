@@ -1,0 +1,268 @@
+[2023-06-21 21:48:38,808] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+
+
+[2023-06-21 21:48:38,809] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+
+[2023-06-21 21:48:41,454] 127.0.0.1 requested http://127.0.0.1:5000/resumedetection
+ERROR in app: Vedant_Parikh.pdf
+
+
+[2023-06-21 21:48:42,333] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 21:48:42] "POST /resumedetection HTTP/1.1" 200 -
+
+
+[2023-06-21 21:49:17,781] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+
+[2023-06-21 21:49:17,782] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-21 21:49:20,584] 127.0.0.1 requested http://127.0.0.1:5000/resumedetection
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-21 21:49:21,535] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 21:49:21] "POST /resumedetection HTTP/1.1" 200 -
+
+[2023-06-21 22:06:06,878] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+
+[2023-06-21 22:06:06,879] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-21 22:06:26,481] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:06:26] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:06:26,897] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:06:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:06:27,276] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:06:27] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:06:34,360] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:06:34] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:06:34,700] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:06:34] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:18,008] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+
+[2023-06-21 22:07:18,008] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-21 22:07:18,011] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-21 22:07:25,057] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-21 22:07:25,066] None requested None
+INFO in _internal:  * Debugger PIN: 799-951-472
+
+[2023-06-21 22:07:32,512] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:32] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:32,648] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:32] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:33,046] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:33] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:33,142] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:33] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:33,288] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:33] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:33,440] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:33] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:33,463] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:33] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:33,656] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:33] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:07:33,828] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:07:33] "[33mGET / HTTP/1.1[0m" 404 -
+
+[2023-06-21 22:08:01,361] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Projects\\ResumeParser\\app.py', reloading
+
+[2023-06-21 22:08:01,699] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-21 22:08:09,474] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-21 22:08:09,483] None requested None
+INFO in _internal:  * Debugger PIN: 799-951-472
+
+[2023-06-21 22:08:09,697] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:09] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:08:09,905] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:09] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:08:15,489] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:08:15,598] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:08:20,411] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:20] "[31m[1mPOST /resumedetection HTTP/1.1[0m" 401 -
+
+[2023-06-21 22:08:28,950] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:28] "[35m[1mPOST /resumedetection HTTP/1.1[0m" 500 -
+
+[2023-06-21 22:08:29,506] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:29] "GET /resumedetection?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+
+[2023-06-21 22:08:29,515] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:29] "GET /resumedetection?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+
+[2023-06-21 22:08:29,588] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:29] "GET /resumedetection?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+
+[2023-06-21 22:08:29,603] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:29] "[31m[1mGET /resumedetection HTTP/1.1[0m" 405 -
+
+[2023-06-21 22:08:29,731] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:08:29] "[36mGET /resumedetection?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+
+[2023-06-21 22:09:17,034] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+
+[2023-06-21 22:09:17,036] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-21 22:09:17,038] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-21 22:09:24,709] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-21 22:09:24,718] None requested None
+INFO in _internal:  * Debugger PIN: 799-951-472
+
+[2023-06-21 22:09:51,439] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+
+[2023-06-21 22:09:51,440] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-21 22:09:51,443] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-21 22:09:58,574] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-21 22:09:58,584] None requested None
+INFO in _internal:  * Debugger PIN: 799-951-472
+
+[2023-06-21 22:10:00,622] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:00] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:10:00,751] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:00] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:10:08,506] 127.0.0.1 requested http://127.0.0.1:5000/resumedetection
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-21 22:10:09,747] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:09] "POST /resumedetection HTTP/1.1" 200 -
+
+[2023-06-21 22:10:09,856] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:09] "[31m[1mGET /resumedetection HTTP/1.1[0m" 405 -
+
+[2023-06-21 22:10:31,989] 127.0.0.1 requested http://127.0.0.1:5000/resumedetection
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-21 22:10:32,804] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:32] "POST /resumedetection HTTP/1.1" 200 -
+
+[2023-06-21 22:10:32,907] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:32] "[31m[1mGET /resumedetection HTTP/1.1[0m" 405 -
+
+[2023-06-21 22:10:35,807] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:35] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:10:35,898] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:35] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:10:40,307] 127.0.0.1 requested http://127.0.0.1:5000/resumedetection
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-21 22:10:41,452] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:41] "POST /resumedetection HTTP/1.1" 200 -
+
+[2023-06-21 22:10:41,553] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:10:41] "[31m[1mGET /resumedetection HTTP/1.1[0m" 405 -
+
+[2023-06-21 22:11:20,867] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\LENOVO\\Desktop\\Projects\\ResumeParser\\app.py', reloading
+
+[2023-06-21 22:11:21,217] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-21 22:11:35,412] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.104:5000
+
+[2023-06-21 22:11:35,417] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-21 22:11:35,421] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-21 22:11:43,040] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-21 22:11:43,049] None requested None
+INFO in _internal:  * Debugger PIN: 799-951-472
+
+[2023-06-21 22:11:48,927] 127.0.0.1 requested http://127.0.0.1:5000/resumedetection
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-21 22:11:49,813] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:11:49] "POST /resumedetection HTTP/1.1" 200 -
+
+[2023-06-21 22:11:49,962] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:11:49] "[31m[1mGET /resumedetection HTTP/1.1[0m" 405 -
+
+[2023-06-21 22:11:53,102] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:11:53] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:11:53,204] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:11:53] "GET / HTTP/1.1" 200 -
+
+[2023-06-21 22:11:59,703] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:11:59] "[35m[1mPOST /resumedetection HTTP/1.1[0m" 500 -
+
+[2023-06-21 22:12:00,078] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:12:00] "[36mGET /resumedetection?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+
+[2023-06-21 22:12:00,083] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:12:00] "[36mGET /resumedetection?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+
+[2023-06-21 22:12:00,101] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:12:00] "[36mGET /resumedetection?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+
+[2023-06-21 22:12:00,113] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:12:00] "[31m[1mGET /resumedetection HTTP/1.1[0m" 405 -
+
+[2023-06-21 22:12:00,186] None requested None
+INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:12:00] "[36mGET /resumedetection?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+

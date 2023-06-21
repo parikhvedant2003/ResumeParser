@@ -1,0 +1,64 @@
+c
+c#
+c++
+python
+java
+django
+flask
+pandas
+numpy
+cpp
+ai
+ml
+nlp
+mern
+mean
+artificial intelligence
+machine learning
+r
+go
+swift
+html
+css
+javascript
+mysql
+git
+data science
+ruby
+php
+kotlin
+react
+angular
+node.js
+restapi
+sql
+mongodb
+postgresql
+oracle
+database designing
+cloud computing
+network administrator
+cyber security
+devops
+mobile app development
+react native
+ui/ux design
+ui/ux
+big data
+data analysis
+html5
+css3
+microsoft azure
+google cloud services
+google cloud
+node js
+react js
+express js
+express.js
+microservices
+hibernate
+spring boot
+sql
+angularjs
+angular js
+rest api
