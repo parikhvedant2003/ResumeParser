@@ -266,3 +266,537 @@ INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:12:00] "[31m[1mGET /resumedet
 [2023-06-21 22:12:00,186] None requested None
 INFO in _internal: 127.0.0.1 - - [21/Jun/2023 22:12:00] "[36mGET /resumedetection?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
 
+[2023-06-22 10:59:13,400] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.21.79:5000
+
+[2023-06-22 10:59:13,400] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-22 10:59:13,400] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 10:59:21,779] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 10:59:21,779] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 10:59:36,906] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 10:59:36] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 10:59:37,859] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 10:59:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+
+[2023-06-22 11:01:29,374] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:01:29] "[31m[1mPOST /resumedetection HTTP/1.1[0m" 401 -
+
+[2023-06-22 11:01:36,291] 127.0.0.1 requested http://localhost:5000/resumedetection
+ERROR in app: Resume-Vedant-Parikh.pdf
+
+[2023-06-22 11:01:36,589] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:01:36] "POST /resumedetection HTTP/1.1" 200 -
+
+[2023-06-22 11:01:45,899] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 11:01:46,267] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 11:01:53,489] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 11:01:53,499] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 11:01:54,519] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:01:54] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:01:58,789] 127.0.0.1 requested http://localhost:5000/resumedetection
+ERROR in app: Resume-Satyanarayan-Sahoo-1.pdf
+
+[2023-06-22 11:01:59,139] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:01:59] "POST /resumedetection HTTP/1.1" 200 -
+
+[2023-06-22 11:02:03,905] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:02:03] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:13,475] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:13] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:14,529] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:14] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:14,851] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:14] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:15,159] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:15,421] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:15,629] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:15,840] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:16,308] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:16] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:07:28,437] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:07:28] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:11:25,998] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:11:25] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:13:33,717] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 11:13:34,006] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 11:13:41,836] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 11:13:41,852] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 11:13:50,916] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:13:50] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:13:51,566] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:13:51] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:13:51,838] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:13:51] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:13:52,220] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:13:52] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:13:58,826] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant.pdf
+
+[2023-06-22 11:13:59,591] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:13:59] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:14:09,901] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:14:09] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:14:11,066] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:14:11] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:14:11,427] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:14:11] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:31:53,255] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:31:53] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:31:53,927] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:31:53] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:31:54,303] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:31:54] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:36:07,584] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 11:36:07,859] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 11:36:17,049] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 11:36:17,056] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 11:36:18,379] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:36:18] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:36:18,379] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:36:18] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:36:25,403] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Shrey.pdf
+
+[2023-06-22 11:36:25,562] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:36:25] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:36:31,343] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:36:31] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:36:36,065] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Resume-Vedant-Parikh.pdf
+
+[2023-06-22 11:36:36,387] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:36:36] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:37:10,845] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Resume-Vedant-Parikh.pdf
+
+[2023-06-22 11:37:11,101] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:37:11] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:37:36,967] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:37:36] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:42:54,743] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 11:42:55,007] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 11:43:28,476] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.21.79:5000
+
+[2023-06-22 11:43:28,476] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-22 11:43:28,482] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 11:43:35,451] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 11:43:35,458] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 11:43:36,430] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:43:36] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:43:51,200] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Resume-Vedant-Parikh.pdf
+
+[2023-06-22 11:43:51,539] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:43:51] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:44:23,378] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:44:23] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:44:28,095] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Resume-Vedant-Parikh.pdf
+
+[2023-06-22 11:44:28,460] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:44:28] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:44:32,795] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:44:32] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:44:42,834] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:44:43,897] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:44:43] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:45:42,894] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:45:42] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 11:45:47,625] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:45:48,651] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:45:48] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:46:06,628] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:46:07,139] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:46:07] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:46:40,556] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:46:41,189] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:46:41] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:48:21,736] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:48:22,266] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:48:22] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:48:24,195] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:48:25,396] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:48:25] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:52:29,755] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:52:30,313] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:52:30] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:52:44,135] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:52:44,708] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:52:44] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:53:08,435] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:53:08,989] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:53:08] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:53:11,252] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:53:12,302] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:53:12] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:53:27,805] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:53:28,357] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:53:28] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 11:53:39,869] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 11:53:40,482] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 11:53:40] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 12:01:19,200] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:01:19] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:01:20,113] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:01:20] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:01:26,426] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 12:01:27,364] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:01:27] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 12:02:02,217] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:02:02,487] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:02:09,921] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:02:09,927] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:02:19,671] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.21.79:5000
+
+[2023-06-22 12:02:19,671] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-22 12:02:19,674] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:02:27,415] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:02:27,422] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:02:28,454] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:02:28] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:02:38,192] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 12:02:38,804] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:02:38] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:06,531] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:03:06,857] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:03:14,155] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:03:14,163] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:03:15,129] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:15,131] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:15,132] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:15,136] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:18,790] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:18] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:19,535] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:19] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:19,845] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:19] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:20,074] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:20] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:03:20,444] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:03:20] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:05:14,053] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:05:14] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:05:15,514] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:05:15] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:05:35,933] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:05:36,193] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:05:43,332] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:05:43,341] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:05:44,345] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:05:44] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:05:59,712] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:06:00,008] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:06:06,998] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:06:07,005] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:06:07,961] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:06:07] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:06:12,666] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 12:06:13,739] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:06:13] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 12:06:26,762] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:06:27,052] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:06:33,937] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:06:33,943] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:06:34,895] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 12:06:35,853] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:06:35] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 12:06:38,525] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:06:38] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:06:39,758] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:06:39] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:06:40,260] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:06:40] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:06:45,956] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 12:06:46,898] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:06:46] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 12:07:30,337] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:07:30,607] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:07:37,631] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:07:37,637] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:08:07,448] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:08:07] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:09:05,047] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:09:05,296] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:09:12,177] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:09:12,183] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:10:12,145] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:10:12,405] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:10:22,886] None requested None
+INFO in _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.10.21.79:5000
+
+[2023-06-22 12:10:22,887] None requested None
+INFO in _internal: [33mPress CTRL+C to quit[0m
+
+[2023-06-22 12:10:22,894] None requested None
+INFO in _internal:  * Restarting with stat
+
+[2023-06-22 12:10:29,951] None requested None
+WARNING in _internal:  * Debugger is active!
+
+[2023-06-22 12:10:29,957] None requested None
+INFO in _internal:  * Debugger PIN: 971-762-479
+
+[2023-06-22 12:10:41,777] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:10:41] "GET / HTTP/1.1" 200 -
+
+[2023-06-22 12:10:46,761] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 12:10:47,378] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:10:47] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 12:11:59,796] 127.0.0.1 requested http://localhost:5000/
+ERROR in app: Vedant_Parikh.pdf
+
+[2023-06-22 12:12:00,331] None requested None
+INFO in _internal: 127.0.0.1 - - [22/Jun/2023 12:12:00] "POST / HTTP/1.1" 200 -
+
+[2023-06-22 12:13:00,255] None requested None
+INFO in _internal:  * Detected change in 'C:\\Users\\Vedant Parikh\\Desktop\\ResumeParser\\app.py', reloading
+
+[2023-06-22 12:13:00,576] None requested None
+INFO in _internal:  * Restarting with stat
+

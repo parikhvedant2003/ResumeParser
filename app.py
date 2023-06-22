@@ -1,9 +1,7 @@
 import os
 import ast
 import logging
-from dotenv import load_dotenv
 from resume_detector import main
-from flask_basicauth import BasicAuth
 from resume_parser import resumeParser
 from logging.handlers import RotatingFileHandler
 from flask import Flask, request, has_request_context, render_template
@@ -37,14 +35,7 @@ fileHandler.setFormatter(formatter)
 
 logger.addHandler(fileHandler)
 
-load_dotenv()
-
 app = Flask(__name__)
-
-app.config['BASIC_AUTH_USERNAME'] = os.getenv('AUTH_USERNAME')
-app.config['BASIC_AUTH_PASSWORD'] = os.getenv('AUTH_PASSWORD')
-
-basic_auth = BasicAuth(app)
 
 folder_path = './media/'
 
@@ -59,8 +50,7 @@ obj = resumeParser()
 def home():
     return render_template('index.html')
 
-@app.route('/resumedetection', methods=['POST'])
-@basic_auth.required
+@app.route('/', methods=['POST'])
 def resumedetection():
     if request.method == 'POST':
         f = request.files['filePath']
@@ -78,7 +68,7 @@ def resumedetection():
             dict = obj.extract_data_from_file(file)
             if os.path.exists(filePath):
                 os.remove(filePath)
-            return render_template('index.html', dict=dict)
+            return render_template('result.html', fileName=f.filename, dict=dict)
             # return dict
         elif str(result).lower() == "false":
             if os.path.exists(filePath):
@@ -88,7 +78,6 @@ def resumedetection():
             return "Something Went Wrong"
 
 @app.route('/resumeparser', methods=['POST'])
-@basic_auth.required
 def resumeparser():
     try:
         if request.method == 'POST':
