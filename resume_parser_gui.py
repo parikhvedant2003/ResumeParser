@@ -1,9 +1,10 @@
 import csv
-from tkinter import *
-from tkinter import filedialog
 import tkinter as tk
+from tkinter import *
 from tkinter import ttk
+from tkinter import filedialog
 from resume_parser import resumeParser
+from app import fileInformation
 
 def write_list_to_csv(data_list, filename):
     with open(filename, 'a+', newline='', errors='ignore') as csvfile:
@@ -38,15 +39,16 @@ def prerec(old):
         
     for file in file_path:
         # FILES = [[]]
+        file = fileInformation(file, ['name', 'email', 'phone', 'skills'])
         object = resumeParser()
-        X = object.read_file(file)
+        X = object.extract_data_from_file(file)
         # FILES[0].append([str(file.split('/')[-1])])
         # FILES[0].append(X['name'])
         # FILES[0].append(X['email'])
         # FILES[0].append(X['phone'])
         # FILES[0].append(X['skills'])
         # FILES[0].append(["======", "======","======", "======", "======","======","======","======","======","======","======"])
-        table.insert("", tk.END, text="1", values=(file.split('/')[-1], X['name'], X['email'], X['phone'], X['skills']))
+        table.insert("", tk.END, text="1", values=(file.filePath.split('/')[-1], X['name'], X['email'], X['phone'], X['skills']))
         # write_list_to_csv(FILES[0], 'FILES_1.csv')
 
     table.configure(height=16)
