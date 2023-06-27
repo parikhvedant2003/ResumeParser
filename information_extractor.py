@@ -1,6 +1,5 @@
 import re
 import spacy
-import logging
 import textract
 import docx2txt
 import pdfplumber
@@ -19,14 +18,12 @@ class informationExtractor:
             try:
                 text = docx2txt.process(document_filename)
             except Exception as e:
-                logging.error('Error in docx file:: ' + str(e))
                 return [], " "
         else: # For doc files
             try:
                 text = textract.process(document_filename).decode('utf-8')
                 return text
             except KeyError:
-                logging.error("Something went wrong")
                 return ' '        
         try:
             clean_text = re.sub(r'\n+', '\n', text)
@@ -36,7 +33,6 @@ class informationExtractor:
             resume_lines = [re.sub('\s+', ' ', line.strip()) for line in resume_lines if line.strip()]  # Remove empty strings and whitespaces
             return resume_lines, text
         except Exception as e:
-            logging.error('Error in extracted text from file:: ' + str(e))
             return [], " "
 
     # This function is extracting text from PDF file
@@ -48,7 +44,6 @@ class informationExtractor:
               raw_text += page.extract_text() + "\n"
             pdf.close()
         except Exception as e:
-            logging.error('Error in pdf file:: ' + str(e))
             return [], " "
         try:
             # It will remove all unneccessary spaces from the extracted text of PDF file
@@ -62,7 +57,6 @@ class informationExtractor:
             resume_lines = [re.sub('\s+', ' ', line.strip()) for line in resume_lines if line.strip()]
             return resume_lines, raw_text
         except Exception as e:
-            logging.error('Error in pdf file words:: ' + str(e))
             return [], " "
 
     # This function is extracting Mobile Number from extracted text of PDF file
@@ -106,7 +100,6 @@ class informationExtractor:
                     mobile_numbers.append(number[::-1])
             mobile_numbers = list(set(mobile_numbers))
             return str(mobile_numbers[0])
-        logging.error('Error in detection of Mobile Number')
         return None
 
     # This function is extracting Email ID from extracted text of PDF file
@@ -117,7 +110,6 @@ class informationExtractor:
                 try:
                     return str(email[0].split()[0].strip(';'))
                 except IndexError:
-                    logging.error('Error in indexing of detected email addresses')
                     return None
             else :
                 return None
@@ -152,7 +144,6 @@ class informationExtractor:
         possible_names = list(set(possible_names))
         candidate_names = []
         if len(possible_names) == 0:
-            logging.error('Can\'t detect of Candidate Name from the contact-info segment')
             name = informationExtractor.extract_name(wholeText, "")
             if name:
                 return name            

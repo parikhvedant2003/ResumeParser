@@ -2,7 +2,7 @@ import os
 import ast
 from resume_detector import main
 from resume_parser import resumeParser
-from flask import Flask, request, render_template
+from flask import Flask, request, has_request_context, render_template
 
 app = Flask(__name__)
 
@@ -43,6 +43,26 @@ def resumedetection():
             return "Given File is not a RESUME"
         else:
             return "Something Went Wrong"
+
+@app.route('/resumeparser', methods=['POST'])
+def resumeparser():
+    try:
+        if request.method == 'POST':
+            try:
+                extractFields = request.form.get('extractFields')
+                extractFields = ast.literal_eval(extractFields)
+            except (ValueError, SyntaxError) as e:
+                extractFields = ast.literal_eval("['name', 'email', 'phone', 'skills']")
+            f = request.files['filePath']
+            f.save(os.path.join(folder_path, f.filename))
+            filePath = os.path.join(folder_path, f.filename)
+            file = fileInformation(filePath, extractFields)
+            dict = obj.extract_data_from_file(file)
+            if os.path.exists(filePath):
+                os.remove(filePath)
+            return dict
+    except:
+        return "Something Went Wrong"
 
 if __name__ == '__main__':
     print("Processing of your PDF file is started...")
