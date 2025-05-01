@@ -36,7 +36,7 @@ def extract_data(file_path):
             pdf = pdfplumber.open(file_path)
             file_text= ""
             for page in pdf.pages:
-              file_text += page.extract_text() + "\n"
+                file_text += page.extract_text() + "\n"
             pdf.close()
     return clean_text(file_text)
 

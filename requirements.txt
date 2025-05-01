@@ -46,7 +46,7 @@ olefile==0.46
 packaging==23.1
 pandas==2.0.1
 pathy==0.10.1
-pdfminer.six==20191110
+pdfminer.six==20221105
 pdfplumber==0.9.0
 phonenumbers==8.13.11
 Pillow==9.5.0
@@ -70,7 +70,6 @@ s3transfer==0.6.1
 scikit-learn==1.2.2
 scipy==1.10.1
 six==1.12.0
-sklearn==0.0.post5
 smart-open==6.3.0
 sortedcontainers==2.4.0
 soupsieve==2.4.1
@@ -82,7 +81,7 @@ SQLAlchemy==2.0.14
 sqlparse==0.4.4
 srsly==2.4.6
 stemming==1.0.1
-textract==1.6.5
+# textract==1.6.5
 thinc==8.1.10
 threadpoolctl==3.1.0
 tika==2.6.0

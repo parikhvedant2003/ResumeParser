@@ -6,8 +6,24 @@ The system will utilize state-of-the-art natural language processing (NLP) techn
 
 ## Installation Steps
 
+Check how many Python are installed on your device?
 ```bash
-  pip install -r requirements.txt
+py -0
+```
+
+Create virtual environment from the above version like,
+```bash
+py -3.11 -m venv env
+```
+
+Activate virtual environment,
+```bash
+.env/Scripts/activate
+```
+
+Install Dependencies
+```bash
+pip install -r requirements.txt
 ```
 
 ## Execution Steps
@@ -17,7 +33,7 @@ The system will utilize state-of-the-art natural language processing (NLP) techn
 => Run the following command to activate the flask API server
 
 ```bash
-  python app.py
+python app.py
 ```
 
 => Here we have two endpoints "/resumeparser" and "/resumedetection".
