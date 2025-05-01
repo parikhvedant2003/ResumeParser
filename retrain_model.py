@@ -14,20 +14,20 @@ negative_cases = []
 for file_name in files:
     # These two files are training our model for Positive cases to identify HUMAN names
     if file_name in ['firstnames.txt', 'lastnames.txt']:   
-      file_path = os.path.join(folder_path, file_name)
-      if os.path.isfile(file_path):
-          with open(file_path, 'r', errors='ignore') as file:
-              file_contents = file.readlines()
-          words = [word[:(len(word) - 1)].lower() for word in file_contents]
-          positive_cases += words
+        file_path = os.path.join(folder_path, file_name)
+        if os.path.isfile(file_path):
+            with open(file_path, 'r', errors='ignore') as file:
+                file_contents = file.readlines()
+            words = [word[:(len(word) - 1)].lower() for word in file_contents]
+            positive_cases += words
     # These files are training our model for Negative cases to identify a words other than HUMAN names
     else:
-      file_path = os.path.join(folder_path, file_name)
-      if os.path.isfile(file_path):
-          with open(file_path, 'r', errors='ignore') as file:
-              file_contents = file.readlines()
-          words = [word[:(len(word) - 1)].lower() for word in file_contents]
-          negative_cases += words
+        file_path = os.path.join(folder_path, file_name)
+        if os.path.isfile(file_path):
+            with open(file_path, 'r', errors='ignore') as file:
+                file_contents = file.readlines()
+            words = [word[:(len(word) - 1)].lower() for word in file_contents]
+            negative_cases += words
 
 positive_cases = list(set(positive_cases))
 negative_cases = list(set(negative_cases))

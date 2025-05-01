@@ -55,7 +55,7 @@ def prerec(old):
     table.pack()
     window.mainloop()
     main()
- 
+
 def main():
     message_box = Tk()
     message_box.geometry("500x500")

@@ -1,6 +1,6 @@
 import re
 import spacy
-import textract
+# import textract
 import docx2txt
 import pdfplumber
 import pandas as pd
@@ -19,12 +19,12 @@ class informationExtractor:
                 text = docx2txt.process(document_filename)
             except Exception as e:
                 return [], " "
-        else: # For doc files
-            try:
-                text = textract.process(document_filename).decode('utf-8')
-                return text
-            except KeyError:
-                return ' '        
+        # else: # For doc files
+        #     try:
+        #         text = textract.process(document_filename).decode('utf-8')
+        #         return text
+        #     except KeyError:
+        #         return ' '
         try:
             clean_text = re.sub(r'\n+', '\n', text)
             clean_text = clean_text.replace("\r", "\n")
@@ -41,7 +41,7 @@ class informationExtractor:
             pdf = pdfplumber.open(pdf_file)
             raw_text= ""
             for page in pdf.pages:
-              raw_text += page.extract_text() + "\n"
+                raw_text += page.extract_text() + "\n"
             pdf.close()
         except Exception as e:
             return [], " "
